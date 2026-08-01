@@ -335,9 +335,12 @@ Example
 ```python
 from main import prime_geometry
 
-prime_geometry(
-    MAX_N=1000,
-    ANGLE_DEG=90
+simulate_prime_geometry(
+    N=1000,
+    radius=1.0,
+    rotation_angle=90.0,
+    draw=True,
+    ..........
 )
 ```
 
